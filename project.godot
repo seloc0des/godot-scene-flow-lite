@@ -1,0 +1,27 @@
+; Scene Flow — Lite (demo project). Autoload declared manually; plugin stays off here.
+
+config_version=5
+
+[application]
+
+config/name="Scene Flow (Lite)"
+run/main_scene="res://demo/room_a.tscn"
+config/features=PackedStringArray("4.5", "GL Compatibility")
+
+[autoload]
+
+SceneFlowLite="*res://addons/scene_flow_lite/scene_flow_lite.gd"
+
+[display]
+
+window/size/viewport_width=900
+window/size/viewport_height=600
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/scene_flow_lite/plugin.cfg")
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
