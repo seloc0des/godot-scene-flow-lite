@@ -1,8 +1,8 @@
 # Scene Flow (Lite)
 
 Free no-code scene travel for **Godot 4.5+**. Doors that walk between scenes
-with fade transitions and named spawn points — baked onto any node from the
-editor chooser dock.
+with fade transitions and named spawn points, baked onto any node from the
+editor chooser dock. Works in 2D and in 3D.
 
 Free Lite tier of the SELODEV **Scene Flow** addon. Pro adds checkpoints +
 one-call respawn, world-state flags (global and per-scene, save-aware),
@@ -18,16 +18,23 @@ press-E doors, and locked/key-gated doors.
 4. In each room, select your player node and click **Make the selected node
    the player** (the Controller packs already do this).
 
-Walk into the door — fade out, swap, land on the spawn point, fade in. Zero code.
+Walk into the door: fade out, swap, land on the spawn point, fade in. Zero code.
+
+In a 3D scene (a scene whose top node is a Node3D) the same two buttons build the 3D
+versions: **Add Door** drops an `Area3D` door and **Add Spawn Point** a `Marker3D`, sized
+in metres. In a 2D scene they work exactly as before.
 
 ## What it does
 
-- **`SceneFlowLite.change_scene(path, spawn)`** — fade → swap → drop everything
+- **`SceneFlowLite.change_scene(path, spawn)`**: fade → swap → drop everything
   in the `"player"` group on the named spawn point → fade in. Signals:
-  `scene_changing/changed`, `faded_out/in`.
-- `SceneDoorLite` — touch-to-travel; retries politely if touched mid-fade.
-- `SceneSpawnPointLite` — named landing spots (`"west"`, `default` fallback).
-- **Chooser dock** — bake doors and spawn points onto the selected node.
+  `scene_changing/changed`, `faded_out/in`. A 3D player also takes the spawn point's
+  facing, and a falling body arrives with its speed reset.
+- `SceneDoorLite`: touch-to-travel. It retries politely if touched mid-fade.
+- `SceneSpawnPointLite`: named landing spots (`"west"`, `default` fallback).
+- `SceneDoorLite3D`, `SceneSpawnPointLite3D`: the 3D twins (`Area3D`, `Marker3D`), same
+  fields and behaviour.
+- **Chooser dock**: bake doors and spawn points onto the selected node.
 
 ## Verify
 

@@ -9,6 +9,7 @@ Scene Flow (Lite) is the free core: doors, spawn points, fades. **Scene Flow
 | Touch-to-travel doors (mid-fade retry) | ✅ | ✅ |
 | Named spawn points + default fallback | ✅ | ✅ |
 | No-code chooser dock | ✅ | ✅ |
+| 2D and 3D (doors and spawn points) | ✅ | ✅ |
 | Walk-on checkpoints + one-call respawn() | — | ✅ |
 | Global world-state flags | — | ✅ |
 | Per-scene flags ("this chest, this room") | — | ✅ |
@@ -17,6 +18,7 @@ Scene Flow (Lite) is the free core: doors, spawn points, fades. **Scene Flow
 | locked / required_flag key-gating + locked_attempt | — | ✅ |
 | return_to_saved_scene() after loads | — | ✅ |
 | Checkpoint dock button | — | ✅ |
+| 3D checkpoints | — | ✅ |
 
 Lite scenes keep working while Scene Flow (Lite) stays installed. The full door and spawn point have every setting the Lite ones have, under the same names. Only the class names (`SceneDoor`, `SceneSpawnPoint`) and the autoload (`SceneFlow`) change.
 
