@@ -18,7 +18,6 @@ Scene Flow (Lite) is the free core: doors, spawn points, fades. **Scene Flow
 | return_to_saved_scene() after loads | — | ✅ |
 | Checkpoint dock button | — | ✅ |
 
-Your Lite scenes carry forward — Pro's door/spawn/autoload use the same names
-for everything Lite has, plus the new exports.
+Lite scenes keep working while Scene Flow (Lite) stays installed. The full door and spawn point have every setting the Lite ones have, under the same names. Only the class names (`SceneDoor`, `SceneSpawnPoint`) and the autoload (`SceneFlow`) change.
 
 Get it on itch.io. MIT-licensed; use it in commercial projects.
