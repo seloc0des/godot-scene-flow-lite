@@ -20,4 +20,4 @@ Scene Flow (Lite) is the free core: doors, spawn points, fades. **Scene Flow
 
 Lite scenes keep working while Scene Flow (Lite) stays installed. The full door and spawn point have every setting the Lite ones have, under the same names. Only the class names (`SceneDoor`, `SceneSpawnPoint`) and the autoload (`SceneFlow`) change.
 
-Get it on itch.io. MIT-licensed; use it in commercial projects.
+Get it on itch.io. Use it in any game you make, commercial or not.
