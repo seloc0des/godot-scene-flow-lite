@@ -2,7 +2,7 @@ class_name SceneDoorLite3D
 extends Area3D
 
 # The 3D twin of SceneDoorLite, same fields and same behaviour: a "player" group
-# body walks in and SceneFlowLite swaps scenes onto the target spawn point. Pro
+# body walks in and SceneFlowLite swaps scenes onto the target spawn point. The full version
 # adds press-E doors and locked/key-gated doors.
 
 signal traveled(by: Node)

@@ -2,7 +2,7 @@ class_name SceneDoorLite
 extends Area2D
 
 # Touch-to-travel door: a "player" group body walks in and SceneFlowLite swaps
-# scenes onto the target spawn point. Pro adds press-E doors and
+# scenes onto the target spawn point. The full version adds press-E doors and
 # locked/key-gated doors.
 
 signal traveled(by: Node)

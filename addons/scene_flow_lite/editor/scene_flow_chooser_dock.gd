@@ -2,7 +2,7 @@
 extends Control
 
 # No-code chooser dock (Lite). Select a node, one click drops a touch-travel
-# Door (with shape and target) or a Spawn Point. Pro adds checkpoints, flags,
+# Door (with shape and target) or a Spawn Point. The full version adds checkpoints, flags,
 # press-E doors, and key-gating. When the open scene's root is a Node3D the same
 # buttons build the 3D versions (Area3D, Marker3D, metres).
 
@@ -96,7 +96,7 @@ func _build() -> void:
 
 	var pro := Label.new()
 	pro.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-	pro.text = "Pro unlocks: checkpoints + respawn(), world-state flags (global & per-scene, save-aware), press-E doors, locked/key-gated doors."
+	pro.text = "The full version unlocks: checkpoints + respawn(), world-state flags (global & per-scene, save-aware), press-E doors, locked/key-gated doors."
 	pro.add_theme_color_override("font_color", Color(0.62, 0.66, 0.78))
 	v.add_child(pro)
 

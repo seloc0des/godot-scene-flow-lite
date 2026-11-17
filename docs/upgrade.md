@@ -1,9 +1,8 @@
-# Upgrading to Scene Flow (Pro)
+# Upgrading to the full Scene Flow
 
-Scene Flow (Lite) is the free core: doors, spawn points, fades. **Scene Flow
-(Pro)** adds the layer that makes the world remember.
+Scene Flow (Lite) is the free core: doors, spawn points, fades. **The full Scene Flow** adds the layer that makes the world remember.
 
-| | Lite (free) | Pro |
+| | Lite (free) | Full |
 |---|---|---|
 | change_scene with fades + spawn placement | ✅ | ✅ |
 | Touch-to-travel doors (mid-fade retry) | ✅ | ✅ |

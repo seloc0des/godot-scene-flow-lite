@@ -1,7 +1,7 @@
 extends Node
 
 # SceneFlowLite autoload: scene travel with fades + spawn placement. The free
-# core of Scene Flow (Pro adds checkpoints/respawn, world-state flags, gating).
+# core of Scene Flow (the full version adds checkpoints/respawn, world-state flags, gating).
 
 signal scene_changing(to_path: String)
 signal scene_changed(path: String)

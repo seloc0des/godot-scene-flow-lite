@@ -4,7 +4,7 @@ Free no-code scene travel for **Godot 4.5+**. Doors that walk between scenes
 with fade transitions and named spawn points, baked onto any node from the
 editor chooser dock. Works in 2D and in 3D.
 
-Free Lite tier of the SELODEV **Scene Flow** addon. Pro adds checkpoints +
+Free Lite tier of the SELODEV **Scene Flow** addon. The full version adds checkpoints +
 one-call respawn, world-state flags (global and per-scene, save-aware),
 press-E doors, and locked/key-gated doors.
 
